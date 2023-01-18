@@ -190,4 +190,16 @@ If the letter grade is not one of the above letters, console.log 'Not an eligibl
   ...
 */
 
+
+for(i = 1; i <= 100; i++){
+  if(i % 3 === 0 && i % 5 === 0){
+      console.log('DevMountain');
+  } else if(i % 5 === 0){
+      console.log('Mountain');
+  } else if(i % 3 === 0){
+      console.log("Dev");
+  } else {
+      console.log(i);
+  }
+}
 //Code Here
